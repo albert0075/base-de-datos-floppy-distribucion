@@ -638,7 +638,6 @@ listenClientsRealtime();
 
 // Al final del archivo, tras tu código principal o en la sección de navegación
 
-// ====== PLANTILLAS (Firestore-backed) ======
 let templates = []; // Cada plantilla: {id, title, msg}
 let editingTemplateIdx = null;
 
@@ -651,7 +650,6 @@ const templateModalTitle = document.getElementById('templateModalTitle');
 const templateTitle = document.getElementById('templateTitle');
 const templateMsg = document.getElementById('templateMsg');
 const cancelTemplateBtn = document.getElementById('cancelTemplateBtn');
-
 
 // Mostrar sección plantillas desde el menú lateral
 // Nota: no ocultamos todo el main; simplemente mostramos/ocultamos las secciones internas
